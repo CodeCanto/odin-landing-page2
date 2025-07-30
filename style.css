@@ -41,7 +41,7 @@
     width: 400px;
 }
 
-#header-signup-button {
+.signup-button {
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
@@ -50,6 +50,8 @@
     font-weight: bold;
     width: 115px;
 }
+
+
 
 #mushroom-pic {
     width: 400px;
@@ -118,7 +120,41 @@ h2 {
 #author {
     color: #1F2937;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 26px;
     text-align: end;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.action-panel {
+    background: #3882F6;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-panel .signup-button {
+    border: solid white 2px;
+}
+
+.action-text {
+    color: white;
+    margin: 0px;
+}
+
+#top-line {
+    font-size: 20px;
+}
+
+#bottom-line {
+    font-weight: 100;
 }
 
